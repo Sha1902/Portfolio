@@ -6,10 +6,19 @@
     <body>
         <h1>My Portfolio</h1>
         <h4><strong>Contents:</strong></h4>
+        
+        <!--Nav Tag-->
         <nav>
         <ul>
             <li><a href="#About">About</a></li>
-            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Skills">Skills</a>
+                <ul>
+                    <li>Frontend</li>
+                    <li>AI/ML</li>
+                </ul>
+            </li>
+            
+            </li>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Experience">Experience</a></li>
             <li><a href="#Education">Education</a></li>
@@ -18,27 +27,39 @@
         </ul>
         </nav>
 
+        <!--article/header tag-->
+        <!--section tag-->
+
+        <section>
+
         <article>
         <header>
 
-        <h1>Sharan Bhoopalan</h1>
+        <h2>Sharan Bhoopalan</h2>
         <p>Junior Software Engineer @ Full Creative</p>
         </header>
         </article>
+
+        <!--figure tag-->
         <figure>
         <img src="IMG_4362.JPG" width="200" height="200">
+
+        <!--figurecaption tag-->
         <figcaption>Profile Photo</figcaption>
         </figure>
 
         
-
+        <section>
         <h1 id="About">About</h1>
         <p>Hello, I'm Sharan R B. Completed my Master's degree in CSE with Data Science from VIT, Vellore.<br>
            I have now joined in Full Creative as Jr. Software Engineer, learning the basics of HTML, CSS, JavaScript<br>
            and buliding a small projects on it. Currently learning the html basics and working on it.<br>
         
         </p>
-        
+        </section>
+    
+    <!--1. create a section for semantic html, why it is used, what is the diff blw semnatic vs normal tag, and when to use which semantic tag-->
+        <section>
         <h1 id="Skills">Skills</h1>
         <p>Technologies I am familiar with is:</p>
         <ul>
@@ -49,7 +70,7 @@
             <li>Git and GitHub</li>
         </ul>
 
-    <section>
+    
 
         <h3>Tools</h3>
         <ul>
@@ -58,6 +79,8 @@
             <li>Terminal/Git</li>
         </ul>
     </section>
+
+    <section>
 
         <h1 id="Projects">Projects</h1>
         <ul>
@@ -74,6 +97,11 @@
         <p><strong>Link:</strong><a href="https://github.com/Sha1902/javascript-task" target="_blank">Live demo/repo</a></p>
         </ul>
 
+    
+    </section>
+
+    <section>
+
 
         <h1 id="Experience">Experience</h1>
         <p>As a fresher, experience is still growing. Below are training and tasks and internships</p>
@@ -87,7 +115,11 @@
             
         </ul>
 
-        <h1 id="Education">Education</h2>
+    </section>
+
+    <section>
+
+        <h1 id="Education">Education</h1>
         <ul>
             <li><strong>Degree</strong></li>
             <p><strong>M.Tech Integrated - CSE with Data Science</strong> VIT, Vellore</p>
@@ -104,6 +136,9 @@
             <p><strong>Percentage:</strong> 72%</p>
             <p>June 2017 - April 2018</p>
         </ul>
+    </section>
+
+    <section>
 
 
         <h1 id="Contact">Contact</h1>
@@ -118,9 +153,11 @@
         <h2>Download Resume</h2>
         
         <p><a href="Profile.pdf" target="_blank">Resume</a></p>
-        
-        
 
+    </section>
+        
+        
+<!--Footer tag-->
         <footer>
             <p>&copy; 2025 Sharan R B. Bulit with only HTML.</p>
         </footer>

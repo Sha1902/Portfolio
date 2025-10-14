@@ -1,0 +1,113 @@
+h1 {
+    background-color: bisque;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    
+    background-color: dodgerblue;
+    padding: 10px;
+    gap: 50px;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    
+
+}
+
+
+#boxred {
+    background-color:red;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+#boxpink {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+
+}
+
+#boxsaddlebrown{
+    background-color: saddlebrown;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+#boxorange{
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+#boxblack{
+    background-color:black;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+#boxblue{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+#boxblueviolet{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+
+}
+
+#boxgrey{
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+#boxaqua{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+#boxseagreen{
+    background-color: seagreen;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: white;
+}
+
+div#boxred   {order: 2;}
+div#boxaqua  {order: 4;}
+div#boxorange {order: 3;}
+div#boxpink  {order: 1;}
